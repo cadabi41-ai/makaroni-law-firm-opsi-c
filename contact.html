@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak — Makaroni Law Firm</title>
+  <meta name="description" content="Hubungi Makaroni Law Firm di Menara Sudirman Lt. 18, Jakarta. Konsultasi awal 30 menit tanpa biaya. Respons dalam 4 jam kerja.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='47' fill='none' stroke='%238B2500' stroke-width='2'/%3E%3Ccircle cx='50' cy='50' r='42' fill='none' stroke='%238B2500' stroke-width='1.2'/%3E%3Cpath d='M28 68V36l22 20 22-20v32' fill='none' stroke='%238B2500' stroke-width='5' stroke-linecap='square' stroke-linejoin='miter'/%3E%3Cline x1='26' y1='72' x2='74' y2='72' stroke='%238B2500' stroke-width='1.5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar"><div class="navbar-inner"><a href="index.html" class="navbar-logo"><div class="logo-svg"><svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="50" cy="50" r="47" stroke="currentColor" stroke-width="2"/><circle cx="50" cy="50" r="42" stroke="currentColor" stroke-width="1.2"/><path d="M28 68V36l22 20 22-20v32" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/><line x1="26" y1="72" x2="74" y2="72" stroke="currentColor" stroke-width="1.5"/></svg></div><div class="logo-text">Makaroni<span>Law Firm</span></div></a><div class="navbar-links" id="navLinks"><a href="index.html">Beranda</a><a href="about.html">Tentang</a><a href="practice-areas.html">Praktik</a><a href="team.html">Tim</a><a href="insights.html">Insights</a><a href="track-record.html">Rekam Jejak</a><a href="faq.html">FAQ</a><button class="theme-toggle" aria-label="Toggle dark mode">🌙</button><a href="contact.html" class="navbar-contact active">Kontak ↗</a></div><button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button></div></nav>
+
+  <div class="page-header"><div class="container"><div class="page-ref">MLF / Kontak</div><h1>Hubungi Kami</h1><p class="page-desc">Konsultasi awal 30 menit tanpa biaya. Partner langsung yang menjawab — bukan admin atau associate.</p></div></div>
+
+  <section class="doc-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- INFO -->
+        <div>
+          <div class="contact-info-item">
+            <div><div class="contact-info-label">Kantor</div><div class="contact-info-value">Menara Sudirman Lt. 18<br>Jl. Jend. Sudirman Kav. 25<br>Jakarta Selatan 12920</div></div>
+          </div>
+          <div class="contact-info-item">
+            <div><div class="contact-info-label">Telepon</div><div class="contact-info-value">(021) 1234-5678</div></div>
+          </div>
+          <div class="contact-info-item">
+            <div><div class="contact-info-label">Email</div><div class="contact-info-value">info@makaronilaw.co.id</div></div>
+          </div>
+          <div class="contact-info-item">
+            <div><div class="contact-info-label">WhatsApp</div><div class="contact-info-value"><a href="https://wa.me/62211234567" target="_blank" rel="noopener" class="link-accent">Chat via WhatsApp →</a></div></div>
+          </div>
+          <div class="contact-info-item">
+            <div><div class="contact-info-label">Jam Operasional</div><div class="contact-info-value">Senin–Jumat<br>08.00–17.00 WIB</div></div>
+          </div>
+          <div class="contact-info-item">
+            <div><div class="contact-info-label">Respons</div><div class="contact-info-value">Dalam 4 jam kerja</div></div>
+          </div>
+        </div>
+
+        <!-- FORM -->
+        <div>
+          <h3 class="form-heading">Kirim Pesan</h3>
+          <p class="form-desc">Jelaskan situasi Anda secara singkat. Partner yang sesuai dengan area hukum Anda akan menghubungi langsung.</p>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group"><label class="form-label" for="nama">Nama Lengkap</label><input type="text" id="nama" class="form-input" placeholder="Nama lengkap" required></div>
+              <div class="form-group"><label class="form-label" for="email">Email</label><input type="email" id="email" class="form-input" placeholder="nama@perusahaan.co.id" required></div>
+            </div>
+            <div class="form-row">
+              <div class="form-group"><label class="form-label" for="telepon">Telepon</label><input type="tel" id="telepon" class="form-input" placeholder="08xx-xxxx-xxxx"></div>
+              <div class="form-group"><label class="form-label" for="area">Area Hukum</label>
+                <select id="area" class="form-select">
+                  <option value="">Pilih area hukum</option>
+                  <option value="corporate">Corporate & M&A</option>
+                  <option value="dispute">Dispute Resolution</option>
+                  <option value="banking">Banking & Finance</option>
+                  <option value="realestate">Real Estate & Property</option>
+                  <option value="employment">Employment & Labor</option>
+                  <option value="ip">Intellectual Property</option>
+                  <option value="tax">Tax Advisory</option>
+                  <option value="tech">Technology & Data Privacy</option>
+                  <option value="other">Belum yakin / Lainnya</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group"><label class="form-label" for="pesan">Situasi Anda</label><textarea id="pesan" class="form-textarea" placeholder="Jelaskan secara singkat situasi hukum yang Anda hadapi, termasuk timeline jika ada" required></textarea></div>
+            <button type="submit" class="btn btn-primary btn-lg btn-full">Kirim Pesan →</button>
+          </form>
+          <div id="successMessage" class="success-message">
+            <h3>Pesan diterima.</h3>
+            <p>Partner yang sesuai akan menghubungi Anda dalam 4 jam kerja. Terima kasih telah mempercayakan Makaroni Law Firm.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="colophon"><div class="container"><div class="colophon-inner"><div class="colophon-brand">
+          <div class="logo-full"><div class="logo-svg"><svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="50" cy="50" r="47" stroke="currentColor" stroke-width="2"/><circle cx="50" cy="50" r="42" stroke="currentColor" stroke-width="1.2"/><path d="M28 68V36l22 20 22-20v32" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/><line x1="26" y1="72" x2="74" y2="72" stroke="currentColor" stroke-width="1.5"/></svg></div><div class="logo-wordmark"><span class="logo-wordmark-name">Makaroni</span><span class="logo-wordmark-sub">Law Firm</span></div></div><p>Firma hukum korporasi yang didirikan tahun 2010 di Jakarta.</p><div class="colophon-registrations">PERADI Reg. MLF/JKT/2010/0847<br>Menara Sudirman Lt. 18, Jakarta Selatan 12920</div></div><div><h5>Navigasi</h5><div class="colophon-links"><a href="index.html">Beranda</a><a href="about.html">Tentang Kami</a><a href="practice-areas.html">Area Praktik</a><a href="team.html">Tim Kami</a><a href="insights.html">Insights</a><a href="track-record.html">Rekam Jejak</a><a href="contact.html">Kontak</a></div></div><div><h5>Kontak</h5><div class="colophon-links"><a href="tel:+622112345678">(021) 1234-5678</a><a href="mailto:info@makaronilaw.co.id">info@makaronilaw.co.id</a></div></div></div><div class="colophon-bottom"><span>© 2026 Makaroni Law Firm.</span><div class="link-row"><a href="faq.html">Kebijakan Privasi</a><a href="faq.html">Syarat & Ketentuan</a></div></div></div></footer>
+  <a href="https://wa.me/62211234567" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat via WhatsApp">💬</a>
+  <button class="back-to-top" aria-label="Kembali ke atas">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>
