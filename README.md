@@ -116,14 +116,14 @@ makaroni-law-firm-opsi-c/
 │
 └── img/
     └── team/             # Direktori foto profil tim advokat asli
-        ├── Muhamad Chesta Adabi.jpeg
-        ├── Alfan Nur Akmal Kareem.jpeg
-        ├── Reza Ahmad Ramdan.jpeg
-        ├── Azita Safwana Arifin.jpeg
-        ├── Dede Anshori Abdurrahman.jpeg
-        ├── M. Didan Maulana R..jpeg
-        ├── M. Dimas Arjun Dwi Sakti.jpeg
-        └── Muhammad Fadhlan.jpeg
+        ├── muhamad-chesta-adabi.jpeg
+        ├── alfan-nur-akmal-kareem.jpeg
+        ├── reza-ahmad-ramdan.jpeg
+        ├── azita-safwana-arifin.jpeg
+        ├── dede-anshori-abdurrahman.jpeg
+        ├── m-didan-maulana-r.jpeg
+        ├── m-dimas-arjun-dwi-sakti.jpeg
+        └── muhammad-fadhlan.jpeg
 ```
 
 ---
