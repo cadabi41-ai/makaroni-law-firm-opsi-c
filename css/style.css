@@ -1440,6 +1440,16 @@ p + p { margin-top: var(--space-md); }
   border-color: rgba(200, 195, 184, 0.12);
 }
 
+.doc-section.bg-dark .witness-text,
+.doc-section.bg-dark .witness-author strong {
+  color: var(--text-on-dark);
+}
+
+.doc-section.bg-dark .witness-ref,
+.doc-section.bg-dark .witness-author span {
+  color: rgba(245, 242, 235, 0.65);
+}
+
 /* ---------- Scroll Reveal ---------- */
 .reveal {
   opacity: 0;
